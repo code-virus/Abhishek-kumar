@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    cursor: url('code-solid (1).svg') 10 10,auto;
+}
+
+.startPoint1:hover .imgHidden{
+    opacity: 0;
+    transition: 1s ease;
+}
